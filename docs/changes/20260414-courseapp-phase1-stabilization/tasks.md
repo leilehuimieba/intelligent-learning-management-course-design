@@ -1,0 +1,26 @@
+# Tasks - courseapp-phase1-stabilization
+
+## 任务列表
+
+| 任务 | 状态 | 依赖 | 完成标准 |
+|---|---|---|---|
+| 切换当前阶段到 Phase 1 | done | Phase 0 Gate 达成 | `docs/README.md`、`docs/roadmap.md`、`docs/stages/current.md` 已更新 |
+| 建立第一个真实业务 change | done | Phase 0 Gate 达成 | 当前 change 的 proposal/design/tasks/status/verify 已创建 |
+| 盘点 `courseapp` 当前已实现功能 | done | 当前业务 change | 已记录引导页、设置页、CSV 导出、答辩文档现状 |
+| 建立 Phase 1 最小推进清单 | done | 功能盘点 | 已明确下一步以验证和小修补为主 |
+| 验证当前 change 是否可作为后续默认主线 | done | 上述任务 | `docs/changes/active.md` 已切换，入口口径一致 |
+| 验证 `courseapp` 是否可构建 | done | 当前业务 change | 已执行 `./gradlew :courseapp:assembleDebug` 且成功 |
+| 核对页面流程与关键函数口径 | done | 构建验证 | 已完成源码与答辩文档的首轮对照，未发现结构性冲突 |
+| 建立手工演示清单 | done | 口径核对 | 已补充可执行的答辩前演示步骤清单 |
+| 建立老师追问一页速答版 | done | 口径核对 | 已补充一页式高频追问答法 |
+| 统一项目对外名称 | done | 现有答辩文档 | 已统一为“智能学习管理程序”，内部主线 `courseapp` 保持不变 |
+| 统一提交包文档口径 | done | 项目对外名称已统一 | `submit_package` 中的文档与源码副本显示名已同步 |
+| 生成课程设计报告正式稿初版 | done | 项目口径已统一 | 已补充仓库参考版与提交包版正式报告初稿 |
+| 初始化项目 Git 仓库并补齐忽略规则 | done | 当前项目目录确认 | 已完成 `.gitignore`、Git 初始化，未跟踪构建产物与本机配置 |
+| 创建公开 GitHub 仓库并首轮推送 | done | Git 仓库已初始化 | 已创建公开仓库并完成首轮远程推送 |
+
+## 当前默认下一步
+1. 按手工演示清单实际过一遍流程
+2. 结合一页速答版做口语化练习
+3. 根据你的真实信息补充报告封面、摘要截图和运行结果
+4. 如有必要，再建立下一轮更小范围的实现类 change 或直接在本 change 下做最小修补

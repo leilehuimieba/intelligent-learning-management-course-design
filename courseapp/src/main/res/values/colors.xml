@@ -1,0 +1,8 @@
+<resources>
+    <color name="course_primary">#1565C0</color>
+    <color name="course_primary_dark">#003C8F</color>
+    <color name="course_secondary">#2E7D32</color>
+    <color name="course_bg">#F6F8FB</color>
+    <color name="course_text">#1F2933</color>
+    <color name="course_card">#FFFFFF</color>
+</resources>
