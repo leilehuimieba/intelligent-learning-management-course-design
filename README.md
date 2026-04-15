@@ -26,27 +26,31 @@
 
 ## 项目截图
 
-当前仓库尚未提交实际运行截图。为保证仓库首页结构完整，已预留截图展示区。
+以下截图基于本地 Android 模拟器实际启动 `courseapp` 后获取：
 
-后续建议补充以下页面截图：
+### 首次使用引导页
 
-- 首页
-- 首次使用引导页
-- 任务管理页
-- 专注计时页
-- 统计分析页
-- 参数设置页
+![首次使用引导页](D:/newwork/智能学习管理程序-课程设计/docs/assets/screenshots/onboarding.png)
 
-建议将截图统一放在：
+### 首页
 
-- `docs/assets/screenshots/`
+![首页](D:/newwork/智能学习管理程序-课程设计/docs/assets/screenshots/home.png)
 
-补充截图后，可直接在此处替换为 Markdown 图片展示，例如：
+### 任务管理页
 
-```md
-![首页截图](docs/assets/screenshots/home.png)
-![任务页截图](docs/assets/screenshots/task.png)
-```
+![任务管理页](D:/newwork/智能学习管理程序-课程设计/docs/assets/screenshots/task.png)
+
+### 专注计时页
+
+![专注计时页](D:/newwork/智能学习管理程序-课程设计/docs/assets/screenshots/focus.png)
+
+### 统计分析页
+
+![统计分析页](D:/newwork/智能学习管理程序-课程设计/docs/assets/screenshots/stats.png)
+
+### 参数设置页
+
+![参数设置页](D:/newwork/智能学习管理程序-课程设计/docs/assets/screenshots/settings.png)
 
 ## 技术栈
 

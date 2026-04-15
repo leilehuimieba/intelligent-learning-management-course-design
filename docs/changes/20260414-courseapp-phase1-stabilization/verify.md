@@ -26,6 +26,8 @@
 16. 补充根目录 `README.md` 作为仓库首页入口说明
 17. 将仓库首页 README 调整为更标准的 GitHub 项目展示结构
 18. 为仓库首页补充截图展示区，并建立截图目录占位说明
+19. 在本地 Android 模拟器中启动 `courseapp`，生成真实页面截图并接入 README
+20. 在当前 Windows 中文目录下补充最小 Gradle 配置，使 `courseapp` 能完成本地构建与安装
 
 ## 验证结果
 - 已切换到 Phase 1：主线稳定
@@ -45,6 +47,8 @@
 - 已补充根目录 `README.md`，可直接作为仓库首页使用
 - 已将仓库首页整理为更标准的 GitHub README 风格
 - 已补充仓库首页截图展示区结构，并提供截图目录占位入口
+- 已在 Android 模拟器中完成真实运行截图，首页已展示引导页、首页、任务页、专注页、统计页和设置页
+- 已在 `gradle.properties` 中补充最小路径检查覆盖配置，当前仓库可在中文目录下完成 `:courseapp:assembleDebug` 与 `:courseapp:installDebug`
 
 ## 证据位置
 1. `docs/README.md`
@@ -72,6 +76,13 @@
 23. GitHub 公开仓库页面与远程推送记录
 24. `README.md`
 25. `docs/assets/screenshots/README.md`
+26. `docs/assets/screenshots/onboarding.png`
+27. `docs/assets/screenshots/home.png`
+28. `docs/assets/screenshots/task.png`
+29. `docs/assets/screenshots/focus.png`
+30. `docs/assets/screenshots/stats.png`
+31. `docs/assets/screenshots/settings.png`
+32. `gradle.properties`
 
 ## 未验证项
 1. 尚未执行页面级实际手工演示验证
