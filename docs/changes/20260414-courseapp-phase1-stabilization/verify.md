@@ -29,6 +29,7 @@
 19. 在本地 Android 模拟器中启动 `courseapp`，生成真实页面截图并接入 README
 20. 在当前 Windows 中文目录下补充最小 Gradle 配置，使 `courseapp` 能完成本地构建与安装
 21. 将真实运行截图插入课程设计报告的仓库参考版与提交包版
+22. 基于现有骨架、截图和测试结果生成课程设计报告最终提交版
 
 ## 验证结果
 - 已切换到 Phase 1：主线稳定
@@ -51,6 +52,7 @@
 - 已在 Android 模拟器中完成真实运行截图，首页已展示引导页、首页、任务页、专注页、统计页和设置页
 - 已在 `gradle.properties` 中补充最小路径检查覆盖配置，当前仓库可在中文目录下完成 `:courseapp:assembleDebug` 与 `:courseapp:installDebug`
 - 已将真实运行截图插入课程设计报告，可直接用于报告预览与后续导出
+- 已生成课程设计报告最终提交版，两份终稿当前仅缺姓名、学号、班级、指导教师和完成时间
 
 ## 证据位置
 1. `docs/README.md`
@@ -88,6 +90,8 @@
 33. `docs/references/courseapp/08-课程设计报告骨架.md`
 34. `submit_package/文档/08-课程设计报告骨架.md`
 35. `submit_package/文档/截图/`
+36. `docs/references/courseapp/10-课程设计报告-最终提交版.md`
+37. `submit_package/文档/10-课程设计报告-最终提交版.md`
 
 ## 未验证项
 1. 尚未执行页面级实际手工演示验证
